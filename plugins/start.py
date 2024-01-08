@@ -9,7 +9,7 @@ async def start(client, message):
         InlineKeyboardButton('Updates Channel', url=UPDATES_CHANNEL),
         InlineKeyboardButton('Support Group', url=SUPPORT_GROUP)
     ],[
-        InlineKeyboardButton('Developer', url=DEV_LINK)
+        InlineKeyboardButton('Contact', url=DEV_LINK)
     ]]
     text = """I can ovly forward document and video (mp4 and mkv) files.
 
