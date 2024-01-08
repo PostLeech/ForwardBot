@@ -1,5 +1,3 @@
-"""(c) @Hansaka_Anuhas"""
-
 import asyncio
 import re
 import logging
@@ -8,13 +6,6 @@ from pyrogram.errors import FloodWait
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from info import FILE_CAPTION
 logger = logging.getLogger(__name__)
-
-# Setup database yourself. If you need setup database contact @Hansaka_Anuhas for paid edits
-CURRENT = {}
-CHANNEL = {}
-CANCEL = {}
-FORWARDING = {}
-CAPTION = {}
 
 @Client.on_callback_query(filters.regex(r'^forward'))
 async def forward(bot, query):
@@ -99,7 +90,7 @@ async def set_skip_number(bot, message):
     try:
         _, skip = message.text.split(" ")
     except:
-        return await message.reply("Give me a skip number.")
+        return await message.reply("/set_skip skip number.")
     try:
         skip = int(skip)
     except:
@@ -113,7 +104,7 @@ async def set_target_channel(bot, message):
     try:
         _, chat_id = message.text.split(" ")
     except:
-        return await message.reply("Give me a target channel ID")
+        return await message.reply("/set_channel channel ID")
     try:
         chat_id = int(chat_id)
     except:
