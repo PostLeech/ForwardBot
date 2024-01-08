@@ -1,17 +1,17 @@
 from pyrogram import Client, filters, enums
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
+from info import UPDATES_CHANNEL, SUPPORT_GROUP, DEV_LINK
 
 
 @Client.on_message(filters.private & filters.command(["start"]) & filters.incoming)
 async def start(client, message):
     btn = [[
-        InlineKeyboardButton('Updates Channel', url='https://t.me/SL_Bots_Updates'),
-        InlineKeyboardButton('Support Group', url='https://t.me/SL_Bots_Support')
+        InlineKeyboardButton('Updates Channel', url=UPDATES_CHANNEL),
+        InlineKeyboardButton('Support Group', url=SUPPORT_GROUP)
     ],[
-        InlineKeyboardButton('Repo', url='https://github.com/Hansaka-Anuhas/ForwardBot'),
-        InlineKeyboardButton('Developer', url='https://t.me/Hansaka_Anuhas')
+        InlineKeyboardButton('Developer', url=DEV_LINK)
     ]]
-    text = """I can forward document and video (mp4 and mkv) files.
+    text = """I can ovly forward document and video (mp4 and mkv) files.
 
 Forward your source channel message to this bot. If source channel is forward restricted last message link send to this bot.
 
