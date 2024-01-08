@@ -27,15 +27,15 @@
     },
     "UPDATES_CHANNEL":{
       "description": "Must enter Your Updates Channel Telegram Link",
-      "value": ""
+      "value": "https://t.me/"
     },
     "SUPPORT_GROUP ":{
       "description": "Must enter Your SUPPORT GROUP Telegram Link",
-      "value": ""
+      "value": "https://t.me/"
     },
     "DEV_LINK":{
       "description": "Must enter Your CONATCT BOT Telegram Link",
-      "value": "-100"
+      "value": "https://t.me/"
     }
   },
   "buildpacks": [
