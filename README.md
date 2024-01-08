@@ -1,6 +1,6 @@
 ## Simple telegram forward bot!
-I can ovly forward document and video (mp4 and mkv) files.
-Forward your source channel message to this bot. If source channel is forward restricted last message link send to this bot.
+ɪ ᴄᴀɴ ᴏɴʟʏ ғᴏʀᴡᴀʀᴅ ᴅᴏᴄᴜᴍᴇɴᴛ ᴀɴᴅ ᴠɪᴅᴇᴏ (ᴍᴘ𝟺 ᴀɴᴅ ᴍᴋᴠ) ғɪʟᴇs. 
+ғᴏʀᴡᴀʀᴅ ʏᴏᴜʀ sᴏᴜʀᴄᴇ ᴄʜᴀɴɴᴇʟ ᴍᴇssᴀɢᴇ ᴛᴏ ᴛʜɪs ʙᴏᴛ. ɪғ sᴏᴜʀᴄᴇ ᴄʜᴀɴɴᴇʟ ɪs ғᴏʀᴡᴀʀᴅ ʀᴇsᴛʀɪᴄᴛᴇᴅ ʟᴀsᴛ ᴍᴇssᴀɢᴇ ʟɪɴᴋ sᴇɴᴅ ᴛᴏ ᴛʜɪs ʙᴏᴛ.
 
 ### Installation
 #### Deploy on Heroku
